@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* site responsive styles */
 /* query sm (576) styles */
 @media (min-width: 576px) {
@@ -69,6 +76,7 @@
 	.pgMainNavigation .nav-link:after {
 		-webkit-transition: opacity, .3s ease, visibility .3s ease, -webkit-transform .3s ease;
 		transition: opacity, .3s ease, visibility .3s ease, -webkit-transform .3s ease;
+		-o-transition: opacity, .3s ease, visibility .3s ease, transform .3s ease;
 		transition: opacity, .3s ease, visibility .3s ease, transform .3s ease;
 		transition: opacity, .3s ease, visibility .3s ease, transform .3s ease, -webkit-transform .3s ease;
 		opacity: 0;
@@ -91,6 +99,7 @@
 		background-color: transparent;
 		position: static;
 		-webkit-transition: none;
+		-o-transition: none;
 		transition: none;
 		-webkit-transform: none;
 		-ms-transform: none;
@@ -301,6 +310,7 @@
 		display: block !important;
 		-webkit-transition: height .3s ease, -webkit-transform .3s ease !important;
 		transition: height .3s ease, -webkit-transform .3s ease !important;
+		-o-transition: height .3s ease, transform .3s ease !important;
 		transition: height .3s ease, transform .3s ease !important;
 		transition: height .3s ease, transform .3s ease, -webkit-transform .3s ease !important;
 	}
