@@ -158,6 +158,10 @@
 		z-index: 2;
 		background-color: #19232b;
 	}
+
+	.img-height-responsive{
+		height: 370px;
+	}
 }
 
 /* query lg (992) styles */

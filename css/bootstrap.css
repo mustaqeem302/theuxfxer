@@ -3621,6 +3621,14 @@ textarea.form-control {
 	-webkit-transition: color .3s ease, background-color .3s ease, border-color .3s ease;
 	transition: color .3s ease, background-color .3s ease, border-color .3s ease;
 }
+
+.btn {
+
+	padding: .4125rem .5375rem;
+}
+
+
+
 @media (prefers-reduced-motion: reduce) {
 	.btn {
 		-webkit-transition: none;
