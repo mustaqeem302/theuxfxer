@@ -3622,9 +3622,21 @@ textarea.form-control {
 	transition: color .3s ease, background-color .3s ease, border-color .3s ease;
 }
 
-.btn {
-
-	padding: .4125rem .5375rem;
+.btn2 {
+	display: inline-block;
+	font-weight: 500;
+	color: #000;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	font-style: italic;
+	text-decoration: underline;
+	padding: .2125rem .1375rem;
+	font-size: 1rem;
+	line-height: 1.5;
 }
 
 
