@@ -200,6 +200,13 @@
 
 /* query lg (992) styles */
 @media (min-width: 992px) {
+
+    .nav-item span {
+        font-size: 12px;
+        text-transform: capitalize;
+        padding-left: 8px;
+    }
+
     h1,
     .h1 {
         font-size: 3.5625rem;
@@ -297,6 +304,7 @@
 /* query lgwd (1025) styles */
 /* query xl (1230) styles */
 @media (min-width: 1230px) {
+
     h1,
     .h1 {
         font-size: 4rem;
@@ -365,6 +373,13 @@
 /* query xxl (1920) styles */
 /* query others (down & between) styles */
 @media (max-width: 991.98px) {
+
+    .nav-item span {
+        font-size: 12px;
+        text-transform: capitalize;
+        padding-left: 8px;
+    }
+
     .hiddentext {
         visibility: hidden;
     }
@@ -393,8 +408,9 @@
 
 @media (max-width: 360px) {
     .tool-bar div img {
-      display: none;
+        display: none;
     }
+
     .tool-bar {
         justify-content: right;
     }

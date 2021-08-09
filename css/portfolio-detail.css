@@ -26,6 +26,9 @@ body {
     background-image: linear-gradient(#040913, #040913);
 
 }
+p{
+    text-transform: uppercase;
+}
 
 
 /* navabr */
@@ -37,6 +40,7 @@ body {
     background-color: #000;
     box-shadow: 0 0 3px rgb(255 255 255 / 20%);
 }
+
 
 .sticky-nav {
     position: fixed;
@@ -87,11 +91,12 @@ body {
     margin-right: auto;
     display: block;
 }
+
 .tool-bar p {
     color: white;
 }
 
-.top-margin{
+.top-margin {
     margin-top: 110px;
 }
 
