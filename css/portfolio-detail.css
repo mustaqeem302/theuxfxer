@@ -26,7 +26,34 @@ body {
     background-image: linear-gradient(#040913, #040913);
 
 }
-p{
+
+/*------------------------------------------------------------------
+Customise scrollbar
+-------------------------------------------------------------------*/
+
+::-webkit-scrollbar {
+    width: 8px;
+    cursor: auto;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgb(255, 197, 20);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(255, 197, 20, 0.71);
+}
+
+p {
     text-transform: uppercase;
 }
 
@@ -50,6 +77,8 @@ p{
 }
 
 .container {
+    display: flex;
+    justify-content: center;
     max-width: 1600px;
 }
 
@@ -83,7 +112,7 @@ p{
 }
 
 .project-wrap img {
-    width: 80%;
+    width: 100%;
     margin-bottom: 100px;
     box-shadow: 0px 0px 100px rgba(118, 120, 138, 0.2);
     border: 1px solid rgb(222, 223, 231);
@@ -106,22 +135,27 @@ p{
         -webkit-transform: translateX(6px);
         transform: translateX(6px);
     }
+
     33.3% {
         -webkit-transform: translateX(-5px);
         transform: translateX(-5px);
     }
+
     49.95% {
         -webkit-transform: translateX(4px);
         transform: translateX(4px);
     }
+
     66.6% {
         -webkit-transform: translateX(-2px);
         transform: translateX(-2px);
     }
+
     83.25% {
         -webkit-transform: translateX(1px);
         transform: translateX(1px);
     }
+
     100% {
         -webkit-transform: translateX(0);
         transform: translateX(0);
@@ -133,22 +167,27 @@ p{
         -webkit-transform: translateX(6px);
         transform: translateX(6px);
     }
+
     33.3% {
         -webkit-transform: translateX(-5px);
         transform: translateX(-5px);
     }
+
     49.95% {
         -webkit-transform: translateX(4px);
         transform: translateX(4px);
     }
+
     66.6% {
         -webkit-transform: translateX(-2px);
         transform: translateX(-2px);
     }
+
     83.25% {
         -webkit-transform: translateX(1px);
         transform: translateX(1px);
     }
+
     100% {
         -webkit-transform: translateX(0);
         transform: translateX(0);
@@ -170,7 +209,9 @@ p{
     transform: translateZ(0);
 }
 
-.hvr-icon-wobble-horizontal:hover .hvr-icon, .hvr-icon-wobble-horizontal:focus .hvr-icon, .hvr-icon-wobble-horizontal:active .hvr-icon {
+.hvr-icon-wobble-horizontal:hover .hvr-icon,
+.hvr-icon-wobble-horizontal:focus .hvr-icon,
+.hvr-icon-wobble-horizontal:active .hvr-icon {
     -webkit-animation-name: hvr-icon-wobble-horizontal;
     animation-name: hvr-icon-wobble-horizontal;
     -webkit-animation-duration: 1s;
@@ -180,5 +221,3 @@ p{
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
 }
-
-

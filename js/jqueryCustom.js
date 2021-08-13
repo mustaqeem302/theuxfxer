@@ -18,7 +18,6 @@ $(function () {
 });
 
 
-
 jQuery(window).on('load', function () {
 
     jQuery("#contactForm").validator().on("submit", function (event) {
