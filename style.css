@@ -1512,6 +1512,43 @@ mcwcCaption / .mcwcCaption
 }
 
 /*------------------------------------------------------------------
+thankyou page css sarts here
+-------------------------------------------------------------------*/
+
+.bg-dark.thankyou-pg {
+    height: 100vh;
+    background-color: #19232C !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 15px;
+}
+
+.thankyou-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    height: 530px;
+    background: #050914;
+    padding: 0px 10px;
+}
+
+.thankyou img {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/*------------------------------------------------------------------
+thankyou page css ends here
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
 stImgHolder / .stImgHolder
 -------------------------------------------------------------------*/
 
