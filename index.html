@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <!-- set the encoding of your site -->
     <meta charset="utf-8">
@@ -22,11 +22,19 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-36W155S9T0"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-36W155S9T0');
     </script>
+    <style>
+        #dots {
+        }
+    </style>
 </head>
 <body>
 <!-- pageWrapper -->
@@ -707,7 +715,7 @@
                             <h2 class="text-capitalize">
                                 <!-- headingTitle -->
                                 <strong class="fwMedium d-inline-block align-top text-white position-relative headingTitle text-capitalize mb-3 wow fadeInRight">Employment
-                                    &amp; Education</strong>
+                                </strong>
                                 <span class="d-block wow bounceInUp" data-wow-delay="0.6s">My Experience Journey</span>
                             </h2>
                         </header>
@@ -735,13 +743,13 @@
 														</span>
 													</span>
                                                 <div class="descrWrap">
-                                                    <strong class="prTitle font-weight-normal d-block">Present - May
-                                                        2020</strong>
-                                                    <h3 class="text-white escHeading font-weight-normal mb-4">UI/UX
-                                                        Engineer / Think Done Solutions</h3>
-                                                    <p> My position in the
-                                                        company was as a senior UI/UX designer, I work on website
-                                                        design, mobile design and wireframe.</p>
+                                                    <strong class="prTitle font-weight-normal d-block">Present - Feb
+                                                        2022</strong>
+                                                    <h3 class="text-white escHeading font-weight-normal mb-4">UX
+                                                        Consultant / Citrok</h3>
+                                                    <p> <span class="more">In my position in the company as a UX consultant, I work on
+                                                        different kinds of products like CMS, SAAS, App design, and
+                                                        website + responsive solutions.</span></p>
                                                 </div>
                                             </div>
                                         </li>
@@ -756,12 +764,14 @@
 														</span>
 													</span>
                                                 <div class="descrWrap">
-                                                    <strong class="prTitle font-weight-normal d-block">2014 -
-                                                        2018</strong>
-                                                    <h3 class="text-white escHeading font-weight-normal mb-4">BS IT /
-                                                        BZU Multan</h3>
-                                                    <p>I am graduate 2018 in Bahauddin Zakariya University Multan in BS
-                                                        Information Technology in 3.2 CGPA.</p>
+                                                    <strong class="prTitle font-weight-normal d-block">May 2020 - Jan
+                                                        2022</strong>
+                                                    <h3 class="text-white escHeading font-weight-normal mb-4">UX
+                                                        Designer / Thinkdone Solution</h3>
+                                                    <p><span class="more">My position in the company was as a senior UI/UX designer, I did
+                                                        many projects like Elevatyx website design + wireframe, Kelger
+                                                        Management website design+Develop Front end only, DrGlow website, MFC App, and KFC App.</span>
+                                                    </p>
                                                 </div>
                                             </div>
                                         </li>
@@ -778,11 +788,15 @@
                                                 <div class="descrWrap">
                                                     <strong class="prTitle font-weight-normal d-block">Sep 2019 - Mar
                                                         2020</strong>
-                                                    <h3 class="text-white escHeading font-weight-normal mb-4">UI
+                                                    <h3 class="text-white escHeading font-weight-normal mb-4">UI/UX
                                                         Designer / Xaavia Studios</h3>
-                                                    <p>My position in the
-                                                        company was as UI/UX designer, I work on Branding, website
-                                                        design, mobile design and etc.</p>
+                                                    <p><span class="more">I joined the company as a UI/UX Designer. I designed and created
+                                                        a complete professional branding suite for one of their client
+                                                        mentioned as Blackstone including the logo, Website design,
+                                                        Marketing material, and Application graphics as well. I also
+                                                        designed the entire wireframe of the Text Neck App launched by
+                                                        Moltyfoam and Burnsroad House Website.</span></p>
+
                                                 </div>
                                             </div>
                                         </li>
@@ -797,12 +811,15 @@
 														</span>
 													</span>
                                                 <div class="descrWrap">
-                                                    <strong class="prTitle font-weight-normal d-block">2011 -
-                                                        2014</strong>
-                                                    <h3 class="text-white escHeading font-weight-normal mb-4">F.Sc.
-                                                        Pre-Engineering / B.I.S.E FSD</h3>
-                                                    <p>I passed my F.Sc Pre Engineering in Faisalabad board in 2014 with
-                                                        70% marks.</p>
+                                                    <strong class="prTitle font-weight-normal d-block">Apr 2019 - Sep
+                                                        2019</strong>
+                                                    <h3 class="text-white escHeading font-weight-normal mb-4">UI/UX
+                                                        Designer / Bitsclan solution</h3>
+                                                    <p><span class="more">I will join this company as a Junior designer, I did many
+                                                        projects like Urtasker website, which was an e-commerce
+                                                        solution, I also designed the wireframe as well as the entire
+                                                        design. Including some marketplace websites and wireframe
+                                                        designs.</span></p>
                                                 </div>
                                             </div>
                                         </li>
@@ -1097,11 +1114,12 @@
                             </header>
                             <!-- messageForm -->
                             <div class="messageForm">
-                                <form  method="post" data-toggle="validator" action="thankyou.html"  data-netlify="true">
+                                <form method="post" data-toggle="validator" action="thankyou.html" data-netlify="true">
                                     <div class="row">
                                         <div class="col-12 col-sm-6">
                                             <div class="form-group position-relative">
-                                                <input type="text" name="name" class="form-control w-100 d-block" required
+                                                <input type="text" name="name" class="form-control w-100 d-block"
+                                                       required
                                                        data-error="NEW ERROR MESSAGE">
                                                 <label class="labelAbsolute mb-0 font-weight-normal position-absolute">Name</label>
                                             </div>
@@ -1115,21 +1133,23 @@
                                         </div>
                                         <div class="col-12 col-sm-6">
                                             <div class="form-group position-relative">
-                                                <input type="text"  name="subject" class="form-control w-100 d-block"
+                                                <input type="text" name="subject" class="form-control w-100 d-block"
                                                        required data-error="NEW ERROR MESSAGE">
                                                 <label class="labelAbsolute mb-0 font-weight-normal position-absolute">Subject</label>
                                             </div>
                                         </div>
                                         <div class="col-12 col-sm-6">
                                             <div class="form-group position-relative">
-                                                <input  type="tel" name="phone" class="form-control w-100 d-block" required
+                                                <input type="tel" name="phone" class="form-control w-100 d-block"
+                                                       required
                                                        data-error="NEW ERROR MESSAGE">
                                                 <label class="labelAbsolute mb-0 font-weight-normal position-absolute">Phone</label>
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-group position-relative">
-                                                <input type="text"  name="message" class="form-control w-100 d-block" required
+                                                <input type="text" name="message" class="form-control w-100 d-block"
+                                                       required
                                                        data-error="NEW ERROR MESSAGE">
                                                 <label class="labelAbsolute mb-0 font-weight-normal position-absolute">Message</label>
                                             </div>

@@ -113,7 +113,6 @@ Customise scrollbar
 }
 
 
-
 .icomoon-mail:before {
     content: "\e901";
 }
@@ -470,6 +469,37 @@ textarea.placeholder,
 textarea.placeholder {
     color: #ccc;
 }
+
+#text, #text2 {
+    display: none;
+}
+
+#toggle, #toggle2 {
+    background: none;
+    border: none;
+    outline: none;
+    color: #cfcfcf;
+    font-style: italic;
+    font-weight: 500;
+}
+
+input[type=button]::-moz-focus-inner {
+    border: 0;
+}
+.morecontent span {
+    display: none;
+
+}
+.morelink {
+    display: inline-block;
+    color: #cfcfcf;
+    font-style: italic;
+    font-weight: 500;
+}
+.morelink:hover{
+    color: #cfcfcf;
+}
+
 
 .col-md-4 {
     display: none;
